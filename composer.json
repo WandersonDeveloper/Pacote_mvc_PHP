@@ -1,2 +1,11 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/seuusuario/meu-pacote"
+        }
+    ],
+    "require": {
+        "seuusuario/meu-pacote": "dev-main"
+    }
 }
