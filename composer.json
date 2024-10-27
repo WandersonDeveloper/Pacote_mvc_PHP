@@ -1,13 +1,19 @@
 {
-    "name": "WandersonDeveloper/Pacote_mvc_PHP",
+    "name": "wanderson-developer/pacote-mvc-php",
     "description": "Um pacote para estrutura MVC em PHP",
     "type": "library",
     "autoload": {
         "psr-4": {
-            "SeuNamespace\\": "src/"
+            "WandersonDeveloper\\PacoteMVC\\": "src/"
         }
     },
     "require": {
         "php": ">=7.4"
-    }
+    },
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WandersonDeveloper/Pacote_mvc_PHP.git"
+        }
+    ]
 }
