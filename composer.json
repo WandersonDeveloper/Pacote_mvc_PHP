@@ -1,5 +1,5 @@
 {
-    "name": "wandersonDeveloper/pacote_mvc_PHP",
+    "name": "developer/pacote_mvc_php",
     "description": "Um pacote para estrutura MVC em PHP",
     "type": "library",
     "autoload": {
