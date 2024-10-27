@@ -1,13 +1,11 @@
 {
-    "name": "seuusuario/projeto-setup",
-    "description": "Pacote para configurar a estrutura inicial de projetos PHP.",
-    "type": "library",
-    "autoload": {
-        "psr-4": {
-            "SeuNamespace\\ProjetoSetup\\": "src/"
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/WandersonDeveloper/Pacote_mvc_PHP.git"
         }
-    },
+    ],
     "require": {
-        "vlucas/phpdotenv": "^5.5"
+        "wandersondeveloper/pacote_mvc_php": "dev-main"
     }
 }
