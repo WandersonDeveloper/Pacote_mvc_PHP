@@ -1,11 +1,13 @@
 {
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/seuusuario/meu-pacote"
+    "name": "WandersonDeveloper/Pacote_mvc_PHP",
+    "description": "Um pacote para estrutura MVC em PHP",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SeuNamespace\\": "src/"
         }
-    ],
+    },
     "require": {
-        "seuusuario/meu-pacote": "dev-main"
+        "php": ">=7.4"
     }
 }
