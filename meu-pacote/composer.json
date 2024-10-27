@@ -1,0 +1,13 @@
+{
+    "name": "seuusuario/projeto-setup",
+    "description": "Pacote para configurar a estrutura inicial de projetos PHP.",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "SeuNamespace\\ProjetoSetup\\": "src/"
+        }
+    },
+    "require": {
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
